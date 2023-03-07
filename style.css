@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: none;
+}
+button:hover {
+  cursor: pointer;
+  background: red;
+  transition: 0.3s;
+}
+
+body {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.run {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.run-left {
+  text-align: left;
+}
+.run-left h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  padding: 40px 0;
+}
+.run-left p {
+  font-size: 2rem;
+  font-weight: 10;
+  padding: 40px 10px;
+}
+
+.run-right img {
+  width: 100%;
+}
+
+.magna {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.magna-left img {
+  width: 100%;
+}
+
+.magna-right h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 40px 50px;
+}
+.magna-right p {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  padding: 40px 50px;
+}
+.magna-right button {
+  margin: 40px 50px;
+}
+
+.tempus {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.tempus-left h2 {
+  font-size: 3rem;
+  margin: 40px 50px;
+}
+.tempus-left p {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  padding: 40px 50px;
+}
+.tempus-left button {
+  margin: 40px 50px;
+}
+
+.tempus-right img {
+  width: 100%;
+}
+
+.form {
+  text-align: center;
+}
+
+.formulaire {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "nam em" "mess mess" "button button";
+}
+
+#name {
+  grid-area: nam;
+}
+
+#email {
+  grid-area: em;
+}
+
+#msg {
+  grid-area: mess;
+}
+
+.but {
+  grid-area: button;
+}/*# sourceMappingURL=style.css.map */
