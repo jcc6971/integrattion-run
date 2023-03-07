@@ -111,7 +111,7 @@ body {
   grid-area: em;
 }
 
-#msg {
+.tar {
   grid-area: mess;
 }
 
