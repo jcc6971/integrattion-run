@@ -18,6 +18,12 @@ button:hover {
   transition: 0.3s;
 }
 
+.get {
+  text-align: center;
+  font-size: 3rem;
+  padding: 80px 0 20px 0;
+}
+
 body {
   max-width: 1800px;
   margin: 0 auto;
@@ -30,6 +36,9 @@ body {
 }
 
 .run-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: left;
 }
 .run-left h1 {
@@ -93,22 +102,34 @@ body {
 }
 
 .form {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .formulaire {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "nam em" "mess mess" "button button";
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "nam em" "mess mess";
 }
 
-#name {
-  grid-area: nam;
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
 }
 
-#email {
-  grid-area: em;
+input[type=text],
+input[type=email] {
+  height: 40px;
+}
+
+label {
+  font-size: 2rem;
 }
 
 .tar {
@@ -116,5 +137,20 @@ body {
 }
 
 .but {
-  grid-area: button;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+footer i {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 40px;
 }/*# sourceMappingURL=style.css.map */

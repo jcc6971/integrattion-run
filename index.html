@@ -7,22 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RUN</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://kit.fontawesome.com/2929b89135.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <section class="run">
-    <div class="run-left">
-      <h1>Run</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea modi sapiente velit, praesentium enim dicta.
-        Obcaecati esse eligendi enim!
+  <header>
+    <section class="run">
+      <div class="run-left">
+        <div class="container">
+          <h1>Run</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea modi sapiente velit, praesentium enim
+            dicta.
+            Obcaecati esse eligendi enim!
 
-      </p>
-      <button>get started</button>
-    </div>
-    <div class="run-right">
-      <img src="./asset/img/banner.jpg" alt="banner">
-    </div>
+          </p>
+          <button>get started</button>
+        </div>
+      </div>
+      <div class="run-right">
+        <img src="./asset/img/banner.jpg" alt="banner">
+      </div>
+  </header>
   </section>
   <section class="magna">
     <div class="magna-left">
@@ -48,15 +55,15 @@
       <img src="./asset/img/img-right.jpg" alt="course tour effeil">
     </div>
   </section>
+  <h2 class="get">Get in touch</h2>
   <section class="form">
-    <h2>get in touch</h2>
     <div>
       <form class="formulaire" action="index.html" method="post">
-        <div>
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name">
+        <div class="name">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" size="40">
         </div>
-        <div>
+        <div class="email">
           <label for="email">Email</label>
           <input type="email" name="email" id="email">
         </div>
@@ -64,13 +71,19 @@
           <label for="msg">Message</label>
           <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
         </div>
-        <button class="but">send message</button>
       </form>
+      <div class="but">
+        <button>send message</button>
+      </div>
     </div>
   </section>
 
   <footer>
-
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-facebook-f"></i> </a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href=""><i class="fa-regular fa-envelope"></i></a>
 
   </footer>
 
